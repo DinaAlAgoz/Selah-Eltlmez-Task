@@ -18,12 +18,30 @@
   outline: none;
 }
 
+img {
+
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    border: 1px solid #ffffff;
+}
+
+@media (max-width: 586px) {
+ img {
+
+    width: 100px;
+ }
+   
+}
+
 .custom-box {
   max-width: 700px;
   background-color: #ffffff;
   margin: 70px auto;
   padding: 30px;
   border-radius: 10px;
+  position: relative;
 }
 
 .custom-box::before,
@@ -96,9 +114,6 @@
     padding: 20px 0;
     margin: 0;
 }
-
-
-
 .quiz-box .option-container .option {
 
     background-color: #cccccc;
@@ -115,7 +130,6 @@
     position: relative;
     overflow: hidden;
 }
-
 
 .quiz-box .option-container .option.aleray-answered {
  
@@ -168,8 +182,6 @@ animation: slideInLeft .5s ease forwards;
         color: #ffffff;
     }
 
-
-
 @keyframes  slideInLeft {
 
     0%{
@@ -184,9 +196,6 @@ animation: slideInLeft .5s ease forwards;
    
      color: #ffffff;
 }
-
-
-
 .quiz-box .answers-indicator{
 
     border-top: 1px solid #cccccc;
@@ -201,7 +210,6 @@ animation: slideInLeft .5s ease forwards;
     border-radius: 50%;
     margin-right: 3px;
     margin-top: 15px;
-
 }
 
 .quiz-box .answers-indicator div.correct{
@@ -210,7 +218,6 @@ animation: slideInLeft .5s ease forwards;
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .quiz-box .answers-indicator div.wrong{
@@ -219,16 +226,11 @@ animation: slideInLeft .5s ease forwards;
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
- 
-
 }
-
-
 
 .result-box {
 
     text-align: center;
-
 }
 
 .result-box h1 {

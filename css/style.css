@@ -120,7 +120,6 @@ img {
     padding: 15px 25px;
     font-size: 16px;
     line-height: 22px;
-    color: #000000;
     border-radius: 10px;
     margin-bottom: 8px;
     cursor: pointer;
@@ -130,8 +129,21 @@ img {
     position: relative;
     overflow: hidden;
     display: inline-block;
-    margin-left: 20px;
+    width: 23%;
+    margin: 1%;
+    text-align: center !important;
+    color: #fff;
 }
+
+
+@media (max-width: 586px) {
+    .quiz-box .option-container .option{
+   
+       width: 48%;
+       
+    }
+      
+   }
 
 .quiz-box .option-container .option.aleray-answered {
  

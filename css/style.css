@@ -36,12 +36,12 @@ img {
 }
 
 .custom-box {
-  max-width: 700px;
-  background-color: #ffffff;
-  margin: 70px auto;
-  padding: 30px;
-  border-radius: 10px;
-  position: relative;
+    max-width: 700px;
+    background-color: #f9e8b5;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 10px;
+    position: relative;
 }
 
 .custom-box::before,
@@ -116,8 +116,8 @@ img {
 }
 .quiz-box .option-container .option {
 
-    background-color: #cccccc;
-    padding: 15px;
+    background-color: #B831CC;
+    padding: 15px 25px;
     font-size: 16px;
     line-height: 22px;
     color: #000000;
@@ -129,6 +129,8 @@ img {
     animation: fadeIn 0.3s ease forwards;
     position: relative;
     overflow: hidden;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .quiz-box .option-container .option.aleray-answered {
